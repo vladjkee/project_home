@@ -1,0 +1,141 @@
+
+*{
+  box-sizing: border-box;
+}
+body{
+  --dark-blue:#34547A;
+  width: 100%;
+  height: 100%;
+}
+header{
+  margin-top: -7px;
+  background: #EEEFF1;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 900px;  
+}
+
+
+li{
+  align-items: center;
+  text-decoration: none;
+}
+.nav-links{
+  list-style: none;
+  height: 16px;
+  margin-right: 696px;
+  margin-top: 72px;
+  font-family: 'Roboto', sans-serif;
+}
+  
+.nav-links li, a {
+  display: inline-block;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #000000;
+  letter-spacing: 0.1em;
+}
+.logo {
+  width: 96px;
+  height: 60px;
+  margin-top: 50px;
+  margin-left: 402px;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  color: #34547A;
+  
+}
+.images{
+  margin-top: 256px;
+}
+
+h1{
+  margin-top: 220px;
+  font-size: 3em;
+  line-height: 79px;
+  color: black;
+}
+.btn{
+  background: #34547A;;
+  color: white;
+  width: 225px;
+  height: 65px;
+  font-size: 1em;
+  line-height: 26px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 50px;
+  letter-spacing: 0.1em;
+}
+p{
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  font-family: 'Roboto', sans-serif;
+}
+.about-header{
+  text-align: center;
+}
+h2{
+  margin-top: 100px;
+  font-size: 32px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 37px;
+  text-align: center;
+  color: black;
+  margin-bottom: 20px;
+}
+.project{
+  width: 100%;
+  height: 200px;
+  background:var(--dark-blue);
+  text-align: center;
+  margin-top: 50px;
+  
+  
+}
+.item-number{
+ width: 36px;
+ height: 19px;
+ color: white;
+ float: right;
+}
+
+.item-about{
+ font-family: 'Roboto', sans-serif;
+ color: white;
+ font-size: 21px;
+ font-weight: 500;
+ line-height: 25px;
+ float: right;
+}
+
+.img-profile{
+  width: 555px;
+ height: 450px;
+ margin-top: 100px;
+ margin-left: 100px;
+}
+
+.profile-content{
+  padding: 20px;
+  background: linear-gradient(90deg, var(--dark-blue) 70% #c4c4c4 30%);
+  border-bottom: 3px solid ;
+  
+}
+.profile{
+  margin-top: 100px;
+}
+.worked {
+  
+  height: 250px;
+  background: #EEEFF1;
+  text-align: center;
+}
+.conrainer{
+  width: 100%;
+  
+}
